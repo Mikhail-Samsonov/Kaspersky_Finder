@@ -4,8 +4,6 @@
 
 int main(int argc, char** argv)
 {
-
-
 	if (argc != 2)
 	{
 		printf("usage: finder <dir_name>\n");
