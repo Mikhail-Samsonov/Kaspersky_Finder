@@ -5,6 +5,9 @@
 #include <stdio.h>
 #include <string.h>
 
+/**
+ * Хранит пусть и несколько полезных примочек для задачи
+ */
 typedef struct
 {
 	char* data;

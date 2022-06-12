@@ -3,6 +3,9 @@
 
 #include "buffer.h"
 
+/**
+ * структура для создания абстракций
+ */
 typedef struct
 {
 	void (* buf_start)(void);
