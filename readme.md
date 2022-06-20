@@ -1,20 +1,4 @@
-# Build
-    chmod +x build.sh
-    ./build.sh
-# Test
-    chmod +x test.sh
-    ./test.sh
-# Install
-    sudo cmake --install ./build
-
-# Usage
-    ./finder <folderpath>
-
-после установки
-
-    finder <folderpath>
-
-# Задание
+## Задание
 Необходимо на языку программирования C реализовать программу 
 для вывода на консоль всех обнаруженных файлов и каталогов. 
 Программа представляет собой утилиту командной строки, которая запускается следующим образом:
@@ -49,3 +33,19 @@
 
 Желательно включить в проект unit tests. Возможно использование любого 
 знакомого\удобного фреймворка тестирования (Например, gtest, gmock и т.п.).
+
+## Build
+    chmod +x build.sh
+    ./build.sh
+## Test
+    chmod +x test.sh
+    ./test.sh
+## Install
+    sudo cmake --install ./build
+
+## Usage
+    ./finder <folderpath>
+
+после установки
+
+    finder <folderpath>
